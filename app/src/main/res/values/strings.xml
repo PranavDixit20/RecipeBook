@@ -1,0 +1,296 @@
+<resources>
+    <string name="app_name">RecipeBook</string>
+----------------------------------------------------------------------------------------------------
+    <string-array name="Beverages">
+        <item>Alcoholic Cocktails</item>
+        <item>Fresh Juice</item>
+        <item>Non-Alcoholic Cocktails</item>
+        <item>Shakes</item>
+        <item>Smoothies</item>
+    </string-array>
+
+    <string-array name="Cocktails">
+        <item>Bloody Mary</item>
+        <item>Fireball</item>
+        <item>Ginger Wine</item>
+        <item>Hot Toddy</item>
+        <item>Martini</item>
+        <item>Pain Killer</item>
+        <item>Pina Colada</item>
+        <item>Rusty Nail</item>
+        <item>Salty Dog</item>
+        <item>Tequila Cocktail</item>
+        <item>Toms Extra Special</item>
+        <item>Toms Ultra</item>
+    </string-array>
+
+    <string-array name="Juice">
+        <item>Apple Soda Punch</item>
+        <item>Apple Spice Drink</item>
+        <item>Carrot Drink</item>
+        <item>Energy Lemonade</item>
+        <item>Fruit Punch</item>
+        <item>Grape Juice</item>
+        <item>Health Drink</item>
+        <item>Khus With Pineapple</item>
+        <item>Mango Delite</item>
+        <item>Sambhaaram</item>
+    </string-array>
+
+    <string-array name="Mocktails">
+        <item>Berry Nice</item>
+        <item>Creamy Sour</item>
+        <item>Mango Margarita</item>
+        <item>Panakam</item>
+        <item>Orange Mocktail</item>
+        <item>Kalingad Cooler</item>
+    </string-array>
+
+    <string-array name="Shakes">
+        <item>Badam Milk</item>
+        <item>Carrot Banana Delight</item>
+        <item>Khajoor Mix Shake</item>
+        <item>Mash Melon Shake</item>
+        <item>Plain Sharjah</item>
+        <item>Soya Milk</item>
+        <item>Strawberry-Banana Milkshake</item>
+        <item>Tropical Milk Shake</item>
+        <item>Vanila Shake</item>
+    </string-array>
+
+    <string-array name="Smoothies">
+        <item>Beetroot Squash</item>
+        <item>Cajun Banana Smoothie</item>
+        <item>Easy Cool Drink</item>
+        <item>Fruit Smoothie</item>
+        <item>Smoothie</item>
+        <item>Then Nellikka &amp; Vine </item>
+        <item>Rice</item>
+        <item>Rotis</item>
+        <item>Salads</item>
+        <item>Soups</item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+    <string-array name="Desserts">
+        <item>Cakes</item>
+        <item>Ice Cream</item>
+        <item>Payasam</item>
+        <item>Pies</item>
+        <item>Pudding</item>
+        <item>Souffles</item>
+    </string-array>
+    <string-array name="Cakes">
+        <item>Amaretti Chocolate Cake</item>
+        <item>American Brownies</item>
+        <item>American Chocolate Brownies</item>
+        <item>American Chocolate Cake</item>
+        <item>Angel White Cake</item>
+        <item>Apple &amp; Honey Cake</item>
+        <item>Apple Bran Muffins</item>
+        <item>Badam Cake</item>
+        <item>Cashew Cake</item>
+        <item>Chocolate Brownie</item>
+        <item>Plum Cake</item>
+    </string-array>
+    <string-array name="IceCream">
+        <item>Chocolate Ice Cream</item>
+        <item>Citrus n Sweet Fruit Salad</item>
+        <item>Creamy Fruit Salad</item>
+        <item>Falooda</item>
+        <item>Fruity Sundae</item>
+        <item>Quicke Creme Caramel</item>
+        <item>Yoghurt Ice Cream</item>
+    </string-array>
+    <string-array name="Payasam">
+        <item>Ada Pradhaman</item>
+        <item>Ambalappuzha Palpayasam</item>
+        <item>Aravana Payasam</item>
+        <item>Aravanai</item>
+        <item>Aval Payasam</item>
+        <item>Chakara Pongal</item>
+        <item>Elaneer Payasam</item>
+        <item>Godhambu Payasam</item>
+        <item>Junnu(Low Fat Version)</item>
+    </string-array>
+    <string-array name="Pies">
+        <item>American Style Mango Pie</item>
+        <item>Apple Tart</item>
+        <item>Apple Pie</item>
+        <item>Mango Pie</item>
+        <item>Rasmalai</item>
+    </string-array>
+    <string-array name="Pudding">
+        <item>Apple Bread Butter Pudding</item>
+        <item>Baked Fruit Pudding</item>
+        <item>Biscuit &amp; Coffee Pudding</item>
+        <item>Biscuit Pudding</item>
+        <item>Bread Cream Pudding</item>
+        <item>Caramel Custard</item>
+        <item>Caramel Pudding</item>
+        <item>Double ka Meeta</item>
+        <item>Tender Coconut Pudding</item>
+    </string-array>
+    <string-array name="Souffles">
+        <item>Mango Souffle</item>
+        <item>Pineapple Souffle</item>
+        <item>Pista Souffle</item>
+        <item>Strawberry Jelly</item>
+        <item>Strawberry Souffle</item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+    <string-array name="NonVeg">
+        <item>Beef</item>
+        <item>Breakfast</item>
+        <item>Chicken</item>
+        <item>Egg</item>
+        <item>Rice</item>
+        <item>Soups</item>
+        <item>Seafood</item>
+        <item>Mutton</item>
+    </string-array>
+    <string-array name="Beef">
+        <item>Beef Biryani</item>
+        <item>Beef Burger</item>
+        <item>Beef Curry</item>
+        <item>Beef Finger Rolls</item>
+        <item>Beef Fry</item>
+        <item>Beef Mappas</item>
+        <item>Beef Olatherachi</item>
+    </string-array>
+    <string-array name="Breakfast">
+        <item>Bachelors Bread Toast</item>
+        <item>Baked Oatmeal</item>
+        <item>Banana Dosa</item>
+        <item>Battalappam</item>
+        <item>Egg Sandwich</item>
+        <item>Chatti Pathiri</item>
+        <item>Kappa &amp; Beef</item>
+    </string-array>
+    <string-array name="Chicken">
+        <item>Chicken Munch</item>
+        <item>Chicken Sticks</item>
+        <item>Chili Chicken</item>
+        <item>Achari Murgh</item>
+        <item>American Green Chicken</item>
+        <item>Badami Chicken</item>
+        <item>Beer Bottom Chicken</item>
+        <item>Black Pepper Chicken</item>
+    </string-array>
+    <string-array name="Egg">
+        <item>Beans-Egg Poriya</item>
+        <item>Broccoli Fry</item>
+        <item>Cauliflower Fry</item>
+        <item>Cheese Omlette</item>
+        <item>Chilly Garlic Egg</item>
+        <item>Chinese Egg Thoran</item>
+        <item>Chowlet</item>
+        <item>Egg &amp; Tomato Rice</item>
+    </string-array>
+    <string-array name="Rice">
+        <item>Andhra Simple Chicken Biriyani</item>
+        <item>Ayeshas Mutton Biryani</item>
+        <item>Biryani</item>
+        <item>Chicken Fried Rice</item>
+        <item>Chinese Fried Rice</item>
+        <item>Fish Biriyani</item>
+        <item>Mutton Biriyani</item>
+        <item>Dum Biriyani</item>
+    </string-array>
+    <string-array name="Soups">
+        <item>Chicken Soup</item>
+        <item>Chicken Corn Soup</item>
+        <item>Prawn Coconut Soup</item>
+        <item>Mutton Soup</item>
+    </string-array>
+    <string-array name="Seafoods">
+        <item>Aavoli</item>
+        <item>All Time Delicacy</item>
+        <item>Alluring Fish Fry</item>
+        <item>Shrimp Curry</item>
+        <item>Prawn Chilly</item>
+        <item>Baked Fish</item>
+        <item>Broiled Cat Fish</item>
+        <item>Capsi n Prawns</item>
+        <item>Chemeen Theeyal</item>
+    </string-array>
+    <string-array name="Mutton">
+        <item>Mutton Fry</item>
+        <item>Attirachi Curry</item>
+        <item>Botti Curry</item>
+        <item>Barbecued Lamb Chops</item>
+        <item>Brain Fry</item>
+        <item>Chilli Mutton Masala</item>
+        <item>Garlic Mutton</item>
+        <item>Lamb Bhuna</item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+    <string-array name="Snacks">
+        <item>Non-Vegetarian</item>
+        <item>Pure Vegetarian</item>
+    </string-array>
+    <string-array name="nveg">
+        <item>Achappam</item>
+        <item>Banana Bread</item>
+        <item>Banana Nit Muffins</item>
+        <item>Beenas Nutri Cutlet</item>
+        <item>Bun With Stuffed Egg</item>
+        <item>Cherupayar Cutlet</item>
+        <item>Cinnamon Rolls</item>
+        <item>Egg Pepper Dry Fry</item>
+        <item>Egg Puffs</item>
+    </string-array>
+    <string-array name="pveg">
+        <item>Kozhukatt</item>
+        <item>Ada Dosa</item>
+        <item>Adhirasam</item>
+        <item>Aloo Bonda</item>
+        <item>American Chocolate Roll</item>
+        <item>Bread Baji</item>
+        <item>Channa Batura</item>
+        <item>Kachori</item>
+        <item>Maida Cuts</item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+    <string-array name="Sweets">
+        <item>Sweets</item>
+    </string-array>
+    <string-array name="Swets">
+        <item>Almond Burfi</item>
+        <item>Ambrossio</item>
+        <item>Aval Kesari</item>
+        <item>Badam Halwa</item>
+        <item>Badusha</item>
+        <item>Balu Shahi</item>
+        <item>Banana Halwa</item>
+        <item>Bengali Rasgulla</item>
+        <item>Diamond Cuts</item>
+        <item>Gajar Halwa</item>
+        <item>Mysore Pak</item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+    <string-array name="Veg">
+        <item>Breakfast</item>
+        <item>Chutneys</item>
+        <item>Curries</item>
+        <item>Noodles</item>
+        <item>Other</item>
+        <item>Pickles</item>
+        <item>Rice</item>
+        <item>Rotis</item>
+        <item>Salads</item>
+        <item>Soups</item>
+    </string-array>
+    <string-array name="breakfastt">
+        <item>Aloo Pratha</item>
+        <item>Ada Dosa</item>
+        <item>Aloo Paratha</item>
+        <item>Appam &amp; Potato Stew</item>
+        <item>Banana Puttu</item>
+        <item>Barley Dosa</item>
+        <item>Cabbage Dosa</item>
+        <item>Crispy Paniyaram</item>
+        <item></item>
+    </string-array>
+----------------------------------------------------------------------------------------------------
+
+</resources>
