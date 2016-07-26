@@ -352,10 +352,6 @@
         <item>Fruit Smoothie</item>
         <item>Smoothie</item>
         <item>Then Nellikka &amp; Vine </item>
-        <item>Rice</item>
-        <item>Rotis</item>
-        <item>Salads</item>
-        <item>Soups</item>
     </string-array>
 ----------------------------------------------------------------------------------------------------
     <string-array name="Soup">
@@ -363,11 +359,21 @@
         <item>Veg</item>
     </string-array>
 
-    <string-array name="Soups">
+    <string-array name="nSoups">
         <item>Chicken Soup</item>
         <item>Chicken Corn Soup</item>
         <item>Prawn Coconut Soup</item>
         <item>Mutton Soup</item>
+    </string-array>
+
+    <string-array name="vSoups">
+        <item>Tomato Soup</item>
+        <item>French Onion Soup</item>
+        <item>Garlic Soup</item>
+        <item>Italian Mushroom Soup</item>
+        <item>Paalak Soup</item>
+        <item>Sizzling Soup</item>
+        <item>Sweet Corn Soup</item>
     </string-array>
 ----------------------------------------------------------------------------------------------------
     <string-array name="Starters">
