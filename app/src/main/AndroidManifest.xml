@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".splashscr" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,7 +16,51 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".Beverage"/>
+        <activity android:name=".Bycat"/>
+        <activity android:name=".Desserts"/>
+        <activity android:name=".Snacks"/>
+        <activity android:name=".Soups"/>
+        <activity android:name=".Startes"/>
+        <activity android:name=".Drinks"/>
+        <activity android:name=".Main_Course"/>
+        <activity android:name=".Soupnon"/>
+        <activity android:name=".Soupveg"/>
+        <activity android:name=".Snacksnon"/>
+        <activity android:name=".Snacksveg"/>
+        <activity android:name=".Starternon"/>
+        <activity android:name=".Starteveg"/>
+        <activity android:name=".Main_counon"/>
+        <activity android:name=".Main_couveg"/>
+        <activity android:name=".Beef"/>
+        <activity android:name=".Chicken"/>
+        <activity android:name=".Egg"/>
+        <activity android:name=".Rice"/>
+        <activity android:name=".Seafood"/>
+        <activity android:name=".Mutton"/>
+        <activity android:name=".Currie"/>
+        <activity android:name=".Noodles"/>
+        <activity android:name=".Other"/>
+        <activity android:name=".Pickles"/>
+        <activity android:name=".Vrice"/>
+        <activity android:name=".Roti"/>
+        <activity android:name=".Salads"/>
+        <activity android:name=".Cakes"/>
+        <activity android:name=".Ice_Cream"/>
+        <activity android:name=".Payasam"/>
+        <activity android:name=".Pies"/>
+        <activity android:name=".Pudding"/>
+        <activity android:name=".Souffles"/>
+        <activity android:name=".Sweet"/>
+        <activity android:name=".Juice"/>
+        <activity android:name=".Shakes"/>
+        <activity android:name=".Cocktails"/>
+        <activity android:name=".Mocktails"/>
+        <activity android:name=".Smoothies"/>
+        <activity android:name=".Processs"/>
+        <activity android:name=".AllRecipe"/>
+
     </application>
 
 </manifest>

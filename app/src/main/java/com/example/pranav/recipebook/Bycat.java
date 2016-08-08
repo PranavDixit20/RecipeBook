@@ -37,25 +37,31 @@ public class Bycat extends Activity implements View.OnClickListener
         public void onClick(View v) {
         switch(v.getId()) {
             case R.id.tv:
-                    startActivity(new Intent(this,Beverage.class));
+                    startActivity(new Intent(this,Soups.class));
                 break;
 
             case R.id.tv1:
+                startActivity(new Intent(this,Snacks.class));
                 break;
 
             case R.id.tv2:
+                startActivity(new Intent(this,Startes.class));
                 break;
 
             case R.id.tv3:
+                startActivity(new Intent(this,Main_Course.class));
                  break;
 
             case R.id.tv4:
+                startActivity(new Intent(this,Desserts.class));
                  break;
 
             case R.id.tv5:
+                startActivity(new Intent(this,Beverage.class));
                  break;
 
             case R.id.tv6:
+                startActivity(new Intent(this,Drinks.class));
                 break;
         }
 
