@@ -21,6 +21,8 @@ public class splashscr extends AppCompatActivity {
 
          pb= (ProgressBar)findViewById(R.id.splashbar);
 
+
+
         final Thread timerThread = new Thread()
         {
             @Override

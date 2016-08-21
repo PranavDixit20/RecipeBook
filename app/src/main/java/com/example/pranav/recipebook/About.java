@@ -56,7 +56,7 @@ public class About extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.call:
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: +918600525761"));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: +918888058537"));
                 startActivity(intent);
                 break;
         }
