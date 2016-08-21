@@ -279,13 +279,6 @@ public class DataBase extends SQLiteOpenHelper
                 "Stir well and simmer in low flame for 5 minutes.\n"+"Serve it with pickle.\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Aloo Paratha");
-        cv.put(DESCRIPTION,"Aloo Paratha");
-        cv.put(INGREDIENTS,"WheatFlour (Atta)\n"+"Salt\n"+"Oil\n"+"Water\n"+"Potatoes\n"+"(boiled\n"+"peeled and mashed)\n"+"Greenchillies\n"+"Curryleaves\n"+"Corianderleaves");
-        cv.put(PROCEDURE,"Cut the potatoes into half and boil it.\n"+"Once done, peel the skin off the potatoes and mash it with hand or a spoon.\n"+"Cut green chillies and add it to the potatoes along with a pinch of salt, curry leaves and coriander leaves.\n"+"Knead flour as required into a soft dough by adding salt as required with water.\n"+"Make balls off the dough.\n"+"Roll them into slightly thick small rotis.\n"+"Fill the potatoes fiiling into it.\n" +
-                "Fold the roti and roll them into slightly thick rotis.\n"+"Oil the heated kadai or tava and place the roti on it and keep turning the sides of the roti.\n"+":- Do not forget to apply required oil, butter or ghee as required on both the ends.\n"+":- Serve it hot with Curd or Pickle or any of Your Fav curries.\n"+":- Portions are not mentioned as it can be taken in required quantity depending on the no. of members to be served.\n"+":- Easy to make and tasty to eat.\n");
-        db.insert("recipes",null,cv);
-
         cv.put(RECIPE_NAME,"Appam & Potato Stew");
         cv.put(DESCRIPTION,"Easy unniyappam in malabar style.");
         cv.put(INGREDIENTS,"Rawrice -1/2 kg\n"+"Jaggery - 3/4 kg\n"+"Banana (medium size) -1 Number\n"+"Maida -50 gm\n"+"oil - for frying purpose\n"+"Wet raw rice until 3/4 hours");
@@ -474,14 +467,14 @@ public class DataBase extends SQLiteOpenHelper
                 "Just before serving, mix in the juice of half a lime. Arrange on a serving dish and garnish with the remaining fried onions, cashew nuts, raisins, and boiled eggs.\n"+":-Serve piping hot with papads, raita and pickles.\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Ayeshas Mutton Biryani");
+        cv.put(RECIPE_NAME,"Mutton Biryani");
         cv.put(DESCRIPTION,"Try this only if you the patience for authentic Hydrabadi biryani..");
         cv.put(INGREDIENTS,"Mutton - 1 kg\n"+"Onion - 1/2 kg\n"+"Corianderpowder - 2 tsp\n"+"Turmericpowder - 1 tsp\n"+"Red chilli powder - 2 tsp\n"+"Ground cardamom powder - 2 tsp\n"+"Whole spices (Cardamom\n"+"Cloves\n"+"Cinnamon and Fennel seeds) - 50 gm\n"+"Ajinomoto - 1 pinch\n"+"Saffron - A few strands\n"+"Curds - 1 1/2 cups\n"+"Salt - As reqd\n"+"Corianderleaves - A bunch\n"+"Pudhina leaves - A bunch\n"+"Basmati Rice - 2 kgs\n"+"Milk - 1 cup\n"+"Ghee - 1/2 kg\n"+"Hot oil - 5 tsp");
         cv.put(PROCEDURE,"Clean the mutton and marinate it with salt and tumeric. Keep it for 5 mins.\n"+"Add the chilli powder, coriander powder and ginger-garlic paste and leave it for 5 mins.\n"+"Add the whole garam masalas.\n"+"Add the saffron.\n"+"Add the curds.\n"+"Deep fry the sliced onions.\n"+"Add them to the marination after crushing them.\n"+"Add ghee to it.\n"+"Add the ground elachi powder.\n"+":- Keep in mind not to mix the ingredients. Let it stay.\n"+"Add hot oil.\n"+"Take a vessel with water for cooking the rice.\n"+"Once it is boiling hot, add the whole spices and let the water be filled with the flavour of the spices.\n"+"Add the rice and keep stirring for 5 mins.\n"+"Now comes the imp part - Take a seive and ensure that the water is completely off the rice and now spread this rice over the marinated mutton.\n" +
                 "Sprinkle the coriander and pudina on the top followed by the milk.\n"+":- You can top it with orange food colour also.\n"+"Keep the vessel on fire on dum for 1/2 hr without disturbing it.\n"+":- Open it and enjoy mouth watering and awesome biryani, hyderabadi style.\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Biryani");
+        cv.put(RECIPE_NAME,"Egg Biryani");
         cv.put(DESCRIPTION,"This kerala egg biryani is very different from the regular egg biryani which was cooked and put in dhum as layered..");
         cv.put(INGREDIENTS,"Eggs - 2 nos\n"+"(boiled)\n"+"Cinnamon(Karugapatta) - 2 sticks\n"+"Cloves (Grambu) - 2 nos\n"+"Ginger garlic paste : 2 tsp\n"+"Cardamom (Elakka) - 2 nos\n"+"Onion (big) - 3 nos\n"+"(thinly sliced)\n"+"Tomato - 1 no\n"+"Basmati rice - 1 cup\n"+"Water - 2 cups\n"+"Chillypowder - 2 tsp\n"+"Corianderpowder - 1 tsp\n"+"Salt - As reqd\n"+"Oil - 2 - 3 tbsp\n"+"Cashewnuts for garnishing");
         cv.put(PROCEDURE,"Heat oil in a pressure cooker.\n"+"Add cinnamon, cardamom and cloves and fry for 2 mins.\n"+"Add onion and saute for 7 - 10 mins.\n"+"Add tomato and saute for 3 mins.\n"+"Add rice and stir for 3 mins.\n"+"Add boiled eggs, chilly powder, coriander powder, water and salt.\n"+"Cover and cook for about 3 - 4 mins.\n"+"Garnish Kerala Egg Biryani with cashew nuts.\n"+":- Serve Kerala Egg Biryani with raita.\n");
@@ -555,7 +548,7 @@ public class DataBase extends SQLiteOpenHelper
         cv.put(PROCEDURE,"Clean the fish and make 2 - 3 small cuts across the fish on either side by using a knife.\n"+"Marinate it with chilly powder, black pepper powder, salt and olive oil and keep it in the fridge for atleast an hr.\n"+"Take a baking pan and place the fish in it.\n"+"Broil high in the upper rack of your oven for 20 mins.\n"+"Turn side and broil for another 20 mins.\n"+":- Serve with rice or it can be eaten as it is.\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Capsi n Prawns");
+        cv.put(RECIPE_NAME,"Prawns Capsicum");
         cv.put(DESCRIPTION,"Good starter..");
         cv.put(INGREDIENTS,"Prawns - 150g\n"+"Onion - 1 no(chopped)\n"+"Capsicum - 2 nos(cut into 4 pieces)\n"+"Tomato - 2 nos(chopped)\n"+"Mayonnaise - 1 cup\n"+"Pepper - As reqd\n"+"Salt - As reqd\n"+"Butter - 1 tbsp\n"+"Parsley - Few");
         cv.put(PROCEDURE,"For preparing capsicum prawns canapes, heat butter in pan.\n"+"Add prawns, parsley, salt and pepper.\n"+"Fry and cook the prawns.\n"+"When done, remove and keep it in a bowl.\n"+"Fry capsicum and place it in a plate.\n"+"Mix onion, tomato and mayonnaise in a bowl.\n"+"On top of capsicum place the mayo mix and top it with prawns.\n"+"Capsicum prawns canapes is ready.\n");
@@ -739,7 +732,7 @@ public class DataBase extends SQLiteOpenHelper
                 "Now remove from griddle and hold it on the direct flame. With the help of spatula, press a bit to get puffed.\n" +"Roast on both sides till you get small black spots.\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Chappatty");
+        cv.put(RECIPE_NAME,"Chapati");
         cv.put(DESCRIPTION,"North Indian chappathis..");
         cv.put(INGREDIENTS,"Wheatflour - 1 cup\n" +"Allpurposeflour (Maida) - 1/2 cup\n" +"Hot water - 3/4 cup\n" +"Salt - As reqd\n" +"Oil - 2 tbsp");
         cv.put(PROCEDURE,"Take a medium sized bowl and put wheat flour, all purpose flour, salt and mix well.\n" +"Add hot water and mix the dough with a spoon(wooden spoon).\n" +"Add oil and mix the dough smoothly using your hand.\n" +"Close the bowl with its lid and keep for an hour.\n" +"Take the dough and make 8 lemon sized dough balls.\n" +"In a flat surface, roll each ball sized dough to a circular shape.\n" +"We can use extra flour to avoid the stickiness of dough during rolling if needed.\n" +"Heat a pan and put 1/2 tsp of oil and fry the rolled dough.Turn upside down and fry the side.\n" +"Cook it till done.\n" +":-Repeat same for rest of the dough balls.\n");
@@ -804,7 +797,7 @@ public class DataBase extends SQLiteOpenHelper
 
         cv.put(RECIPE_NAME,"American Brownies");
         cv.put(DESCRIPTION,"Soft chocolate brownies with creamy frosting..");
-        cv.put(INGREDIENTS,"    10 tablespoons (1 1/4 sticks, 140 g) unsalted butter\n" +"    1 1/4 cups (250 g) granulated sugar\n" +"    3/4 cup plus 2 tablespoons (85 g) unsweetened cocoa powder (natural or Dutch-process)\n" +"    1/4 teaspoon salt\n" +"    1/2 teaspoon almond extract\n" +"    2 cold large eggs\n" +"    1/2 cup (65 g) all-purpose flour\n" +"    2/3 cup (90 g) pecan pieces\n");
+        cv.put(INGREDIENTS,"    10 tablespoons (1 1/4 sticks, 140 g) unsalted butter\n" +"    1 1/4 cups (250 g) granulated sugar\n" +"3/4 cup plus 2 tablespoons (85 g) unsweetened cocoa powder (natural or Dutch-process)\n" +"    1/4 teaspoon salt\n" +"    1/2 teaspoon almond extract\n" +"    2 cold large eggs\n" +"    1/2 cup (65 g) all-purpose flour\n" +"    2/3 cup (90 g) pecan pieces\n");
         cv.put(PROCEDURE,"1 Preheat oven and line baking pan: Preheat oven to 325°F (160°F), with a rack in the lower third of the oven.\n" +
                 "\n" +
                 "Line the bottom of an 8-inch square baking pan with foil or parchment paper in such a way as there is an overhang on two opposite sides to make it easy to lift the brownies out when they're done.\n" +
@@ -990,7 +983,7 @@ public class DataBase extends SQLiteOpenHelper
                 "Note:- Please cook it on medium flame only..or else the egg will break and the junnu will be like crumbled texture..\n");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"American Style Mango");
+        cv.put(RECIPE_NAME,"American Style Mango pie");
         cv.put(DESCRIPTION,"Soft and tasty mango pie..");
         cv.put(INGREDIENTS,"Graham Cracker pie crusts - 3 nos\n" +"(easily available in all stores)\n" +"Mango pulp - 1 container\n" +"Cream cheese - 8 oz\n" +"Sour cream - 16 oz\n" +"Getatine(unflavoured) - 3 small sized packets\n" +"Sugar - if extra sugar needs to be added and/or if the mango pulp is unsweetened");
         cv.put(PROCEDURE,"In 3 cups of boiling water, add 3 packets of gelatine and stir in, until disolved.\n" +"In a large vessel, pour an entire can of mango pulp, sour cream, cream cheese and fold it into the pulp.\n" +"Once it is well blended, add getatine mixture.\n" +"Add sugar, if necessary.\n" +"Pour this mixture into the pie crusts and refrigerate (do not freeze) for 3 - 4 hours or until firm.\n" +"Slice and serve.\n" +":- This recipe is for 3 pies. So if you intend on making just one pie, divide the recipe ingredients by 3.\n");
@@ -1167,13 +1160,13 @@ public class DataBase extends SQLiteOpenHelper
 
         cv.put(RECIPE_NAME,"Apple Soda Punch");
         cv.put(DESCRIPTION,"A refreshing drink made with soda and apples..");
-        cv.put(INGREDIENTS,"Ripe apples - 4 - 5 nos\n" +"(cut into small pieces)\n" +"Sugar - 1/2 cup\n" +"Water - 1 cup\n" +"Soda - 1/2 liter(chilled)\n" +"Cinnamon(Karugapatta) powder/ stick - 1 tsp or 1\" stick\n" +"Salt - A pinch\n");
+        cv.put(INGREDIENTS,"Ripe apples - 4 - 5 nos\n" +"(cut into small pieces)\n" +"Sugar - 1/2 cup\n" +"Water - 1 cup\n" +"Soda - 1/2 liter(chilled)\n" +"Cinnamon powder/ stick - 1 tsp or 1\" stick\n" +"Salt - A pinch\n");
         cv.put(PROCEDURE,"Cook the chopped apples in 1 cup of water along with cinnamon, covered with lid.\n" +"Once it boils, simmer in low heat for around 15 mins.\n" +"Remove from fire, strain and squeeze the apple pieces to get out the maximum juice.\n" +"Discard the dry Kothu or pulp and cinnamon stick if any.\n" +"While the juice is still warm, add and mix the sugar and stir until completely mixed.\n" +":- If needed, heat it up to melt sugar.\n" +"When sugar has been completely incorporated, add salt and chill the juice.\n" +"Just before serving, mix with the soda and serve in tall glasses.\n" +":- For a change, try adding some pepper powder or black salt(abt 1/8 tsp for 1 glass).\n");
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Apple Spice Drink");
         cv.put(DESCRIPTION,"An apple drink with spices..");
-        cv.put(INGREDIENTS,"Orange peel(grated) - 3 tsp\n" +"Cinnamon(Karugapatta) - 3 sticks\n" +"(crushed)\n" +"Whole cloves(Grambu) - 3 tsp\n" +"Whole nutmeg(Jathikka) - 1 no\n" +"(crushed)\n" +"Apple juice - 3 cup\n" +"Cinnamon sticks - 6 nos for garnishing");
+        cv.put(INGREDIENTS,"Orange peel - 3 tsp\n" +"Cinnamon - 3 sticks\n" +"(crushed)\n" +"Whole cloves - 3 tsp\n" +"Whole nutmeg(Jathikka) - 1 no\n" +"(crushed)\n" +"Apple juice - 3 cup\n" +"Cinnamon sticks - 6 nos for garnishing");
         cv.put(PROCEDURE,"Combine orange peel, crushed cinnamon sticks, cloves and nutmeg in a small bowl.\n" +"Tie dry ingredients in a double thickness of cheesecloth to make a sachet or secure in a large tea-straining ball.\n" +"In a medium pan, simmer apple juice with spices for at least 20 mins.\n" +"Ladle into mugs.\n" +"Garnish each with a cinnamon stick.\n");
         db.insert("recipes",null,cv);
 
@@ -1190,20 +1183,20 @@ public class DataBase extends SQLiteOpenHelper
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Fruit Punch");
-        cv.put(DESCRIPTION,"Fruit Punch..");
+        cv.put(DESCRIPTION,"a punch made of fruit juices mixed with water or soda water..");
         cv.put(INGREDIENTS,"Orange juice - 3 qts\n" +"Pineapple juice - 2 qts\n" +"Lemon-lime soda - 2 lt\n" +"Grenadine - 1/2 cup\n" +"Ice - 4 cups\n" +"Orange (medium) - 1 no\n" +"(sliced)\n" +"Lemon(medium) - 1 no\n" +"(sliced)\n" +"Lime(medium) - 1 no\n" +"(sliced)");
         cv.put(PROCEDURE,"Combine juices, soda, and grenadine in a punch bowl.\n" +"Add ice.\n" +"Lay slices of fruit on ice to garnish.\n" +":- Grenadine (grenadine syrup) is a blood-red, strong syrup made from pomegranates.\n" +":- One can get this from store and can also make on your own.\n" +":- Use 4 pomegranates to make about 2 cups of pomegranate syrup. After removing seeds, process with food processor knife blade. Simmer pulp with 1/4 cup honey over low heat 3 minutes. Stir well. Strain to remove seeds.\n");
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Grape Juice");
-        cv.put(DESCRIPTION,"Grape juice Is Very refreshing especially during Hot summer...");
-        cv.put(INGREDIENTS,"Grapes(Black ones) - 1 kg\n" +"Sugar - 200 gm\n" +"Cardamom (Elakka) - 3 nos\n" +"(powdered)\n" +"Cloves (Grambu) - 2 - 3 nos\n" +"Cinnamon(Karugapatta) - 1 piece");
+        cv.put(DESCRIPTION,"There's nothing better than homemade grape juice..");
+        cv.put(INGREDIENTS,"Grapes(Black ones) - 1 kg\n" +"Sugar - 200 gm\n" +"Cardamom  - 3 nos\n" +"(powdered)\n" +"Cloves - 2 - 3 nos\n" +"Cinnamon - 1 piece");
         cv.put(PROCEDURE,"Boil grapes in 2 1/2 glass of water.\n" +"Keep it overnight.\n" +"Next day, grind it in a mixer or squeeze it with your hands.\n" +"Remove the skin and extract the juice.\n" +"Boil water in a pan.\n" +"Add sugar and make it thick.\n" +"Add cloves, powdered cardamom and cinnamon and mix well.\n" +"Add the juice to it.\n" +"Allow it to cool.\n" +"Keep in refrigerator.\n" +":- Serve chilled.\n");
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Health Drink");
-        cv.put(DESCRIPTION,"For good health..");
-        cv.put(INGREDIENTS,"Ginger - 3\" piece\n" +"Black pepper powder - 2 tbsp\n" +"Tender neem leaves - A fistful\n" +"Bitterguard pieces - 1/2 of one\n" +"(with out seeds)\n" +"Tulsi leaves - A fistful\n" +"Dry ginger powder - 1 tsp\n" +"Crystal sugar(Kalkandam) - 50 gm\n" +"Honey - 2 tbsp");
+        cv.put(DESCRIPTION,"for good health and stamina..");
+        cv.put(INGREDIENTS,"Ginger - 3\" piece\n" +"Black pepper powder - 2 tbsp\n" +"Tender neem leaves - A fistful\n" +"Bitterguard pieces - 1/2 of one\n" +"(with out seeds)\n" +"Tulsi leaves - A fistful\n" +"Dry ginger powder - 1 tsp\n" +"Crystal sugar - 50 gm\n" +"Honey - 2 tbsp");
         cv.put(PROCEDURE,"Take 300 ml of water.\n" +"Put all the ingredients into it except honey.\n" +"Boil until the quantity reduced to half.\n" +"Filter and add honey to the filtrate and take in the early morning, preferably after exercise.\n");
         db.insert("recipes",null,cv);
 
@@ -1232,9 +1225,9 @@ public class DataBase extends SQLiteOpenHelper
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Khajoor Mix Shake");
-        cv.put(DESCRIPTION,"Chilled shake for iftar..");
-        cv.put(INGREDIENTS,"Khajoor (dates) - 25 pcs\n" +"(without seed and chopped)\n" +"Rosewater - 1 tbsp\n" +"Milk - 1 ltr\n" +"Cherupazham (small Banana) - 2 nos (chopped)\n" +"Mango (riped) - 1 no\n" +"(cut into pieces)\n" +"Sugar - 3 tbsp\n" +"Milk powder - 2 tbsp\n" +"Pistachios green - 1 tbsp\n" +"(chopped)\n" +"Saffron - 1 big pinch\n");
-        cv.put(PROCEDURE,"In a blender put milk powder, sugar, khajoor and quarter portion of milk and blend it to a thick cream.\n" +"Add banana, mango, rose water and rest of milk and make a thick juice.\n" +"Keep them refrigerated for 2 hours.\n" +"Then pour into ice cream glasses and spread pistachios and saffron on the top.\n" +":- Serve chilled.\n");
+        cv.put(DESCRIPTION,"A healthy drink to boost up your energy level..");
+        cv.put(INGREDIENTS,"dates - 25 pcs\n" +"(without seed and chopped)\n" +"Rosewater - 1 tbsp\n" +"Milk - 1 ltr\n" +"Cherupazham (small Banana) - 2 nos (chopped)\n" +"Mango (riped) - 1 no\n" +"(cut into pieces)\n" +"Sugar - 3 tbsp\n" +"Milk powder - 2 tbsp\n" +"Pistachios green - 1 tbsp\n" +"(chopped)\n" +"Saffron - 1 big pinch\n");
+        cv.put(PROCEDURE,"In a blender put milk powder, sugar, dates and quarter portion of milk and blend it to a thick cream.\n" +"Add banana, mango, rose water and rest of milk and make a thick juice.\n" +"Keep them refrigerated for 2 hours.\n" +"Then pour into ice cream glasses and spread pistachios and saffron on the top.\n" +":- Serve chilled.\n");
         db.insert("recipes",null,cv);
 
         cv.put(RECIPE_NAME,"Mash Melon Shake");
@@ -1245,7 +1238,7 @@ public class DataBase extends SQLiteOpenHelper
 
         cv.put(RECIPE_NAME,"Plain Sharjah");
         cv.put(DESCRIPTION,"Orginal sharjah recipe..");
-        cv.put(INGREDIENTS,"Milk (chilled/frozen) - 1/2 litre\n" +"Cashewnuts - 100 g\n" +"Horlicks/bournvita/maltova/chocolate horlicks/ovaltine - 2 tbsp\n" +"Plantain(medium size) - 1 no(we use palayamgoden plantain)\n" +"Sugar - As reqd(normally 4 or 5 tbsp)");
+        cv.put(INGREDIENTS,"Milk (chilled/frozen) - 1/2 litre\n" +"Cashewnuts - 100 g\n" +"Horlicks/bournvita/maltova/chocolate horlicks/ovaltine - 2 tbsp\n" +"Plantain(medium size) - 1 no\n" +"Sugar - As reqd(normally 4 or 5 tbsp)");
         cv.put(PROCEDURE,"Grind the above ingredients in a blender for 2 minutes.\n" +"Its ready to serve in milk shake glasses.\n");
         db.insert("recipes",null,cv);
 
@@ -1370,6 +1363,12 @@ public class DataBase extends SQLiteOpenHelper
         cv.put(PROCEDURE,"Wash gooseberries in water and dry them on a towel.\n" +"Take a clean glass vessel and put them.\n" +"Pour 250 gm of honey and put turmeric powder.\n" +"Mix well and close tightly. Shake at times.\n" +"Keep for 21 days.\n" +":- All the water from gooseberries will be drained by that time.\n" +"Remove them from the water and put in another vessel.\n" +"Strain the liquid(vine) into a clean bottle and keep for 21 days.\n" +":- This is a very healthy vine.\n" +"Add balance 250 gm honey and keep for 4 months.\n" +"When the gooseberries become sweet with honey, you can eat one per day.\n" +":- Its said that it prevents hair greying.\n");
         db.insert("recipes",null,cv);
 
+        cv.put(RECIPE_NAME,"Spicy Vegetable Biryani");
+        cv.put(DESCRIPTION,"Spicy Vegetable Biryani..");
+        cv.put(INGREDIENTS,"Basmati rice - 2 1/2 cups\n" +"Onion - 2 nos\n" +"Garlic pods - 10 nos\n" +"Ginger - 1\" piece\n" +"Oil - 2 tbsp\n" +"Ghee or Butter - A scoop of tbsp\n" +"Chopped tomatoes - 1/2 of the tin\n" +"Green chillies (small) - 2 nos\n" +"Bell peppers - 1 - 2 nos\n" +"Mushrooms and Vegetables - As your wish*\n" +"Lime or lemon juice - 2 tsp\n" +"Yoghurt - 2 tbsp\n" +"Spices :- Cloves\n" +"Cinnamon\n" +"Cardamom \n" +"Garammasala - 1 spoon\n" +"Biriyani masala - 1 spoon\n" +"Royal curry powder or chilly powder - As reqd\n" +"Turmericpowder - 1/4 of a small spoon\n" +"Salt - As reqd\n" +"Corianderleaves\n" +"*Can use potatos\n" +"greenpeas\n" +"carrots\n" +"beans");
+        cv.put(PROCEDURE,"Grind garlic, ginger, one-fourth of the onion & green chillies together with a little amount of water & keep aside.\n" +"Wash the rice & soak it in the water & keep aside.\n" +"Heat oil & ghee/butter in a pan.\n" +"Add the remaining onion & fry them until it turns to golden brown.\n" +"Add the spices to them & saute for 2 mins.\n" +"Add the ground paste & fry for 5 mins.\n" +"Add the tomatoes, turmeric powder, salt, garam masala, biriyani masala, royal curry/chilly powder to it & cook for 5 mins on low flame.\n" +"Add all the vegetables, bell peppers, mushrooms & close the lid & cook for 5 - 10 mins.\n" +"Drain the water from the rice & add to them & stir for 2 - 3 mins.\n" +"Add lime juice & yoghurt to it & stir well.\n" +"Add 5 cups (same 1:2 ratio of rice & water) of water to it & close the lid.\n" +"Cook until the rice is done in the stove or in the oven.\n" +":- Oven cooking tastes better.\n" +"Finally, add the coriander leaves for better flavour.\n" +
+                ":- Serve with mint or onion flavoured yoghurt.\n" +":- It is not necessary to use all the spices & masala powders. We can use what we have. But for perfect Indian taste, the specified things would be better. Garlic-ginger-chillies-onion paste is the magic & we can very well feel that, when we add them.\n");
+        db.insert("recipes",null,cv);
 
     }
 

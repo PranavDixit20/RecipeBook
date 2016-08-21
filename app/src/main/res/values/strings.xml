@@ -84,7 +84,7 @@
         <item>Bread Cream Pudding</item>
         <item>Caramel Custard</item>
         <item>Caramel Pudding</item>
-        <item>Double ka Meeta</item>
+        <item>Double Ka Meeta</item>
         <item>Tender Coconut Pudding</item>
     </string-array>
     <string-array name="Souffles">
@@ -92,7 +92,6 @@
         <item>Pineapple Souffle</item>
         <item>Pista Souffle</item>
         <item>Strawberry Jelly</item>
-        <item>Strawberry Souffle</item>
     </string-array>
 
     <string-array name="Swets">
@@ -153,8 +152,8 @@
     </string-array>
     <string-array name="Rice">
         <item>Andhra Simple Chicken Biriyani</item>
-        <item>Ayeshas Mutton Biryani</item>
-        <item>Biryani</item>
+        <item>Mutton Biryani</item>
+        <item>Egg Biryani</item>
         <item>Chicken Fried Rice</item>
         <item>Chinese Fried Rice</item>
         <item>Fish Biriyani</item>
@@ -169,7 +168,7 @@
         <item>Prawn Chilly</item>
         <item>Baked Fish</item>
         <item>Broiled Cat Fish</item>
-        <item>Capsi n Prawns</item>
+        <item>Prawns Capsicum</item>
         <item>Chemeen Theeyal</item>
     </string-array>
     <string-array name="Mutton">
@@ -246,6 +245,7 @@
         <item>Capsicum Rice</item>
         <item>Chinese Fried Rice</item>
         <item>Chitrannam</item>
+        <item>Spicy Vegetable Biryani</item>
     </string-array>
 
     <string-array name="Rotis">
@@ -253,7 +253,7 @@
         <item>Aloo Paratha</item>
         <item>Batura</item>
         <item>Bhakri</item>
-        <item>Chappatty</item>
+        <item>Chapati</item>
         <item>Chilli Paratha</item>
         <item>Gobi Ke Poori</item>
         <item>Kuki Paratha</item>
@@ -285,7 +285,6 @@
     </string-array>
     <string-array name="pveg">
         <item>Kozhukatt</item>
-        <item>Ada Dosa</item>
         <item>Adhirasam</item>
         <item>Aloo Bonda</item>
         <item>American Chocolate Roll</item>
@@ -296,8 +295,8 @@
     </string-array>
 ----------------------------------------------------------------------------------------------------
     <string-array name="Drinks">
-        <item>Alcoholic Cocktails</item>
-        <item>Non-Alcoholic Cocktails</item>
+        <item>Cocktails</item>
+        <item>Mocktails</item>
         <item>Smoothies</item>
     </string-array>
     <string-array name="Cocktails">
@@ -367,7 +366,6 @@
     </string-array>
 
     <string-array name="VStarters">
-        <item>Aloo Paratha</item>
         <item>Ada Dosa</item>
         <item>Appam &amp; Potato Stew</item>
         <item>Banana Puttu</item>
@@ -434,7 +432,6 @@
         <item>Pineapple Souffle</item>
         <item>Pista Souffle</item>
         <item>Strawberry Jelly</item>
-        <item>Strawberry Souffle</item>
         <item>Almond Burfi</item>
         <item>Ambrossio</item>
         <item>Aval Kesari</item>
@@ -469,8 +466,8 @@
         <item>Chowlet</item>
         <item>Egg &amp; Tomato Rice</item>
         <item>Andhra Simple Chicken Biriyani</item>
-        <item>Ayeshas Mutton Biryani</item>
-        <item>Biryani</item>
+        <item>Mutton Biryani</item>
+        <item>Egg Biryani</item>
         <item>Chicken Fried Rice</item>
         <item>Chinese Fried Rice</item>
         <item>Fish Biriyani</item>
@@ -482,7 +479,7 @@
         <item>Prawn Chilly</item>
         <item>Baked Fish</item>
         <item>Broiled Cat Fish</item>
-        <item>Capsi n Prawns</item>
+        <item>Prawns Capsicum</item>
         <item>Chemeen Theeyal</item>
         <item>Mutton Fry</item>
         <item>Attirachi Curry</item>
@@ -511,7 +508,7 @@
         <item>Aloo Paratha</item>
         <item>Batura</item>
         <item>Bhakri</item>
-        <item>Chappatty</item>
+        <item>Chapati</item>
         <item>Chilli Paratha</item>
         <item>Gobi Ke Poori</item>
         <item>Kuki Paratha</item>
@@ -568,8 +565,6 @@
         <item>Chicken Corn Soup</item>
         <item>Prawn Coconut Soup</item>
         <item>Mutton Soup</item>
-        <item>Aloo Paratha</item>
-        <item>Ada Dosa</item>
         <item>Appam &amp; Potato Stew</item>
         <item>Banana Puttu</item>
         <item>Barley Dosa</item>
@@ -582,6 +577,7 @@
         <item>Egg Sandwich</item>
         <item>Chatti Pathiri</item>
         <item>Kappa &amp; Beef</item>
+        <item>Spicy Vegetable Biryani</item>
 
     </string-array>
 </resources>
