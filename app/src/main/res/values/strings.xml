@@ -270,13 +270,13 @@
 ----------------------------------------------------------------------------------------------------
     <string-array name="Snacks">
         <item>Non-Vegetarian</item>
-        <item>Pure Vegetarian</item>
+        <item>Vegetarian</item>
     </string-array>
     <string-array name="nveg">
         <item>Achappam</item>
         <item>Banana Bread</item>
         <item>Banana Nut Muffins</item>
-        <item>Beenas Nutri Cutlet</item>
+        <item>Nutri Cutlet</item>
         <item>Bun With Stuffed Egg</item>
         <item>Cherupayar Cutlet</item>
         <item>Cinnamon Rolls</item>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#d50000"
+            android:text="About Us"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/info"
+                android:clickable="true"
+                android:text="We are a Start Up in Android and .Net application development.​In a saturated market we stand out by delivering enterprise quality product at a lower rate and provide operational support to maintain the software for next 12 months for free"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="Any more details :-"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="We are located near -"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="30dp"
+                android:text="1] Senapati Bapat Road  ​Pune India.
+​2] Vancouver Canada."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text=" email us - Info@adservices.in"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Our Web Site :-"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webvv"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/web"
+                android:clickable="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:text="http://www.adservices.in/"
+                android:textColor="#303F9F"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/fb"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/facebook"
+                    android:scaleType="centerCrop"
+                    android:cropToPadding="true"/>
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/call"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@mipmap/call"
+                    android:scaleType="centerCrop"
+                    android:cropToPadding="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <include layout="@layout/copy"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

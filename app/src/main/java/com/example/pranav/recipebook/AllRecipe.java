@@ -12,27 +12,30 @@ import android.widget.ListView;
 /**
  * Created by Pranav on 08-08-2016.
  */
-public class AllRecipe extends Activity implements AdapterView.OnItemClickListener, View.OnClickListener {
+public class AllRecipe extends Activity implements AdapterView.OnItemClickListener {
 
     ListView lv;
-
     String cat;
     Processs p;
     Bundle b;
     Intent in;
     DataBase db;
     String a;
-    String pr;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.allrecipe);
 
+
+
         lv = (ListView)findViewById(R.id.lv);
 
         lv.setOnItemClickListener(this);
-        ArrayAdapter<String> adpt = new ArrayAdapter<String>(this,R.layout.allrecipe);
 
+
+
+        ArrayAdapter<String> adpt = new ArrayAdapter<String>(this,R.layout.allrecipe);
 
 
     }
@@ -56,10 +59,6 @@ public class AllRecipe extends Activity implements AdapterView.OnItemClickListen
 
     }
 
-    @Override
-    public void onClick(View v) {
 
-        pr = v.getContentDescription().toString();
 
-    }
 }

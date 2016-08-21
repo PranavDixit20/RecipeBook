@@ -138,7 +138,7 @@ public class DataBase extends SQLiteOpenHelper
                 "Fold in the chopped walnuts or pecans.\n"+"Fill muffin cups, and bake: Lightly spoon the mixture into a prepared muffin tin. Bake at 350°F for 20-25 minutes.\n"+"Check for doneness by pressing down on the top of the muffin. If it bounces back, it's done. You can also test by inserting a skewer or other tester into the center of a muffin. If it comes out clean, it's done.\n"+"Cool on a rack.");
         db.insert("recipes",null,cv);
 
-        cv.put(RECIPE_NAME,"Beenas Nutri Cutlet");
+        cv.put(RECIPE_NAME,"Nutri Cutlet");
         cv.put(DESCRIPTION,"Healthy one !!");
         cv.put(INGREDIENTS,"Nutri (Meal maker/Soya chunks) - 1/2 cup\n"+"Ginger - A small piece\n"+"Greenchillies - 2 no\n"+"Onion (big) - 2 nos\n"+"Cornflour - As reqd\n"+"Egg (beaten) - 1 no\n"+"Milk\n"+"Breadcrumbs\n"+"Allpurposeflour (Maida) - As reqd\n"+"Salt - As reqd\n"+"Oil to fry");
         cv.put(PROCEDURE,"Put Nutri in boiled water and close it. Open after 5 minutes when it will be swollen fully and then drain it. Nicely drain the water by squeezing it and then grind it.\n"+"It should not grind to a paste.\n"+"Cut garlic, green chillies, onion into small pieces and then fry it after cracking mustards.\n"+"Put the fried things to the half-grinded Nutri and mix well.\n"+"Add salt and maida flour to the mixture say about two to three teaspoons and mix well too.\n"+"Break the egg and mix nicely with milk to form a batter.\n"+
@@ -1399,6 +1399,31 @@ public class DataBase extends SQLiteOpenHelper
             p[1]=y;
             p[2]=z;
             p[3]=w;
+
+        }
+        return p;
+    }
+
+    public String[] xyz(String pr) {
+        String x, y, z, w;
+        Cursor c;
+        this.getReadableDatabase();
+
+        c = sdb.rawQuery("select * from recipes where name ='" + pr + "'", null);
+        String p[] = new String[10];
+
+        while (c.moveToNext()) {
+
+            x = c.getString(c.getColumnIndex("name"));
+            y = c.getString(c.getColumnIndex("des"));
+            z = c.getString(c.getColumnIndex("ing"));
+            w = c.getString(c.getColumnIndex("pro"));
+
+            p[0] = x;
+            p[1] = y;
+            p[2] = z;
+            p[3] = w;
+
 
         }
         return p;

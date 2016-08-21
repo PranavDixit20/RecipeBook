@@ -24,20 +24,10 @@ android:background="#FFFDCC05">
 
 </LinearLayout>
 
-
-
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:scrollbarAlwaysDrawVerticalTrack="true"
-    android:fillViewport="false"></ScrollView>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
 
         <ListView
             android:layout_width="match_parent"
@@ -56,5 +46,4 @@ android:background="#FFFDCC05">
             android:visibility="visible"/>
 
     </LinearLayout>
-
 </LinearLayout>
