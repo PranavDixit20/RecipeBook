@@ -39,7 +39,7 @@ public class Snacks extends Activity implements AdapterView.OnItemClickListener 
                 startActivity(new Intent(this,Snacksnon.class));
                 break;
 
-            case "Pure Vegetarian" :
+            case "Vegetarian" :
                 startActivity(new Intent(this,Snacksveg.class));
                 break;
         }
