@@ -47,49 +47,31 @@
                 android:layout_marginLeft="5dp"
                 android:id="@+id/info"
                 android:clickable="true"
-                android:text="We are a Start Up in Android and .Net application development.​In a saturated market we stand out by delivering enterprise quality product at a lower rate and provide operational support to maintain the software for next 12 months for free"
+                android:text="We offer Android and .Net applications built to suit your need and budget. ​In a saturated market we stand out by delivering enterprise quality product at a lower rate and provide operational support to maintain the software for next 12 months for free."
                 android:textColor="#000"
                 android:textSize="20dp"
                 android:layout_gravity="center"
                 android:textStyle="italic" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
-                android:text="Any more details :-"
-                android:textColor="#000"
-                android:textStyle="bold"
-                android:textSize="25dp"/>
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="20dp"
-                android:text="We are located near -"
+                android:layout_marginLeft="5dp"
+                android:text="Location -"
                 android:textColor="#000"
                 android:textSize="25dp"
-                android:textStyle="italic"/>
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:layout_marginLeft="30dp"
-                android:text="1] Senapati Bapat Road  ​Pune India.
-​2] Vancouver Canada."
-                android:textColor="#000"
-                android:textSize="20dp"
-                android:textStyle="italic"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="20dp"
-                android:text=" email us - Info@adservices.in"
+                android:text=" Senapati Bapat Road  ​Pune India.
+​ Vancouver Canada."
                 android:textColor="#000"
                 android:textSize="20dp"
                 android:textStyle="italic"/>
@@ -99,29 +81,106 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:text="Our Web Site :-"
+                android:text=" Email - Info@adservices.in"
                 android:textColor="#000"
-                android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textSize="20dp"
+                android:textStyle="italic|bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-            <WebView
-                android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/webvv"/>
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Web -"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/web"
                 android:clickable="true"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="70dp"
                 android:text="http://www.adservices.in/"
                 android:textColor="#303F9F"
                 android:textSize="20dp"
                 android:textStyle="italic|bold"/>
 
+            </RelativeLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Contacts -"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/call"
+                android:scaleType="centerCrop"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="60dp"
+                android:text="+1 604 704 8811"
+                android:textColor="#303F9F"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:id="@+id/num"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/call"
+                android:scaleType="centerCrop"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="60dp"
+                android:text="+91 8888058537"
+                android:textColor="#303F9F"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/numm"
+                android:clickable="true"/>
+
+        </RelativeLayout>
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webvv"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -139,16 +198,16 @@
                     android:scaleType="centerCrop"
                     android:cropToPadding="true"/>
 
-                <Button
+                <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/call"
+                    android:id="@+id/tw"
                     android:clickable="true"
-                    android:layout_marginLeft="20dp"
-                    android:background="@mipmap/call"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/tw"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"/>
 
             </LinearLayout>
 
