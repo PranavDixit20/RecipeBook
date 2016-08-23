@@ -34,11 +34,11 @@ public class Drinks extends Activity implements AdapterView.OnItemClickListener 
         cat = parent.getItemAtPosition(position).toString();
         switch (cat)
         {
-            case "Alcoholic Cocktails" :
+            case "Cocktails" :
                 startActivity(new Intent(this,Cocktails.class));
                 break;
 
-            case "Non-Alcoholic Cocktails" :
+            case "Mocktails" :
                 startActivity(new Intent(this,Mocktails.class));
                 break;
 

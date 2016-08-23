@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFDCC05">
+    android:background="@color/b">
 
 
     <LinearLayout
@@ -15,9 +15,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:background="#000"
+            android:background="@color/t"
             android:text="Noodles"
-            android:textColor="#FFFDCC05"
+            android:textColor="@color/bb"
             android:textStyle="bold"
             android:textSize="35dp"
             android:gravity="center"/>
