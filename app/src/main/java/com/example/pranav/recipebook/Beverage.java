@@ -27,7 +27,7 @@ public class Beverage extends Activity implements AdapterView.OnItemClickListene
             lv.setOnItemClickListener(this);
 
 
-            ArrayAdapter<String> adpt = new ArrayAdapter<String>(this, R.layout.soups);
+            ArrayAdapter<String> adpt = new ArrayAdapter<String>(this, R.layout.soup);
         }
     }
 

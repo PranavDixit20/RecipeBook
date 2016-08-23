@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+    <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFDCC05">
+    android:background="@color/b">
 
     <LinearLayout
     android:layout_width="match_parent"
@@ -14,9 +15,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:background="#000"
-        android:text="Soups"
-        android:textColor="#FFFDCC05"
+        android:background="@color/t"
+        android:text="Starters"
+        android:textColor="@color/bb"
         android:textStyle="bold"
         android:textSize="35dp"
         android:gravity="center"/>
@@ -25,18 +26,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lv"
-        android:drawSelectorOnTop="false"
-        android:entries="@array/Soup"
-        android:contextClickable="true"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:transcriptMode="normal"
-        android:choiceMode="singleChoice"
-        android:clickable="true"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:visibility="visible">
+        android:entries="@array/Starters"
+        android:dividerHeight="10dp"
+        android:divider="@color/bb">
 
     </ListView>
-</LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/b">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/t"
+            android:text="Drinks"
+            android:textColor="@color/bb"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv"
+            android:entries="@array/Drinks"
+            android:dividerHeight="10dp"
+            android:divider="@color/bb">
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

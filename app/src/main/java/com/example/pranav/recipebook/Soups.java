@@ -18,13 +18,13 @@ public class Soups extends Activity implements AdapterView.OnItemClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.soups);
+        setContentView(R.layout.soup);
         {
             lv=(ListView)findViewById(R.id.lv);
             lv.setOnItemClickListener(this);
 
 
-            ArrayAdapter<String> adpt = new ArrayAdapter<String>(this,R.layout.soups);
+            ArrayAdapter<String> adpt = new ArrayAdapter<String>(this,R.layout.soup);
 
         }
     }
