@@ -10,17 +10,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:background="@color/t">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="55dp"
-            android:background="@color/t"
+            android:layout_marginLeft="80dp"
             android:text="PROCEDURE"
             android:textColor="@color/bb"
             android:textStyle="bold"
             android:textSize="35dp"
             android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/star"
+            android:background="#00ffffff"
+            />
 
     </LinearLayout>
 

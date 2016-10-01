@@ -34,6 +34,7 @@ public class DataBase extends SQLiteOpenHelper
     {
         String sql = "CREATE TABLE IF NOT EXISTS recipes("+VSR_NO+" integer primary key autoincrement,"+RECIPE_NAME+" text,"+DESCRIPTION+" text,"+INGREDIENTS+" text,"+PROCEDURE+" text)";
         db.execSQL(sql);
+        Log.d("table","done");
 
         ContentValues cv = new ContentValues();
 
@@ -1370,6 +1371,8 @@ public class DataBase extends SQLiteOpenHelper
                 ":- Serve with mint or onion flavoured yoghurt.\n" +":- It is not necessary to use all the spices & masala powders. We can use what we have. But for perfect Indian taste, the specified things would be better. Garlic-ginger-chillies-onion paste is the magic & we can very well feel that, when we add them.\n");
         db.insert("recipes",null,cv);
 
+
+
     }
 
     @Override
@@ -1425,6 +1428,56 @@ public class DataBase extends SQLiteOpenHelper
 
 
         }
+        return p;
+    }
+
+    public void bookMarkTable(){
+        this.getWritableDatabase();
+        String bquery = "CREATE TABLE IF NOT EXISTS bookmarks(bname text )";
+        sdb.execSQL(bquery);
+        Log.d("table","done");
+    }
+
+    public int save(String n){
+
+        Cursor c;
+        this.getReadableDatabase();
+
+        c = sdb.rawQuery("select * from bookmarks where bname ='" + n + "'", null);
+        if(c.moveToFirst()){
+
+            return 1;
+
+        }
+        else {
+            sdb = this.getWritableDatabase();
+            ContentValues cv = new ContentValues();
+            cv.put("bname",n);
+            sdb.insert("bookmarks",null,cv);
+
+            return 0;
+        }
+    }
+    public String [] cheak(){
+        Cursor c;
+        int k = 0;
+        String x;
+         sdb=this.getReadableDatabase();
+
+        c= sdb.rawQuery("select * from bookmarks " ,null);
+        String p[]=new String[c.getCount()];
+
+        if(c!=null){
+            if(c.moveToFirst()){
+                do{
+                    x=c.getString(c.getColumnIndex("bname"));
+                    p[k]=x;
+                    k++;
+                }while(c.moveToNext());
+
+            }
+        }
+
         return p;
     }
 }
