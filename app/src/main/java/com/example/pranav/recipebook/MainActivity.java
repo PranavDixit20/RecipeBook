@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    TextView tv, tv1,tv2,tv3;
+    TextView tv, tv1,tv2,tv3,tv4;
     DataBase db;
     TextToSpeech ts;
 
@@ -22,13 +22,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv1 = (TextView) findViewById(R.id.bycate);
         tv2 = (TextView) findViewById(R.id.ser);
         tv3 = (TextView) findViewById(R.id.about);
+        tv4 = (TextView) findViewById(R.id.sa);
 
         tv.setOnClickListener(this);
         tv1.setOnClickListener(this);
         tv2.setOnClickListener(this);
         tv3.setOnClickListener(this);
+        tv4.setOnClickListener(this);
 
         db = new DataBase(this);
+        db.bookMarkTable();
     }
 
     @Override
@@ -49,6 +52,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.about:
                 startActivity(new Intent(this, About.class));
+                break;
+
+            case R.id.sa:
+                startActivity(new Intent(this, Bookmark.class));
                 break;
         }
 

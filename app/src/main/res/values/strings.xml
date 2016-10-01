@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">  R e c i P i c k  </string>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Beverages">
         <item>Fresh Juice</item>
         <item>Shakes</item>
@@ -29,7 +29,7 @@
     </string-array>
 
 
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Desserts">
         <item>Cakes</item>
         <item>Ice Cream</item>
@@ -107,7 +107,7 @@
         <item>Gajar Halwa</item>
 
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Main_Cou">
         <item>Non-Veg</item>
         <item>Veg</item>
@@ -182,7 +182,7 @@
     </string-array>
 
     <string-array name="Veg">
-       <!--
+        <!--
         <item>Noodles</item>
         <item>Other</item>
         <item>Pickles</item> -->
@@ -192,7 +192,7 @@
         <item>Salads</item>
     </string-array>
 
-   <!-- <string-array name="Noodles">
+    <!-- <string-array name="Noodles">
         <item>Bread Noodles</item>
         <item>Cabbage Thoran</item>
         <item>Cheesy Pasta</item>
@@ -267,7 +267,7 @@
         <item>Challaas</item>
 
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Snacks">
         <item>Non-Vegetarian</item>
         <item>Vegetarian</item>
@@ -293,7 +293,7 @@
         <item>Kachori</item>
         <item>Maida Cuts</item>
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Drinks">
         <item>Cocktails</item>
         <item>Mocktails</item>
@@ -327,7 +327,7 @@
         <item>Fruit Smoothie</item>
         <item>Then Nellikka &amp; Vine </item>
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Soup">
         <item>Non-Veg</item>
         <item>Veg</item>
@@ -349,7 +349,7 @@
         <item>Sizzling Soup</item>
         <item>Sweet Corn Soup</item>
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Starters">
         <item>Non-Veg</item>
         <item>Veg</item>
@@ -373,7 +373,7 @@
         <item>Cabbage Dosa</item>
         <item>Crispy Paniyaram</item>
     </string-array>
-----------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------
     <string-array name="Allrecipe">
         <item>Apple Soda Punch</item>
         <item>Apple Spice Drink</item>
