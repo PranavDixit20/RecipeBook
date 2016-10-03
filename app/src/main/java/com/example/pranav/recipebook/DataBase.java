@@ -1480,6 +1480,14 @@ public class DataBase extends SQLiteOpenHelper
 
         return p;
     }
+
+    public void delete(String name){
+
+        sdb = this.getWritableDatabase();
+        sdb.execSQL("delete from bookmarks where bname='"+name+"'");
+        Log.d("database qur","done");
+        sdb.close();
+    }
 }
 
 
