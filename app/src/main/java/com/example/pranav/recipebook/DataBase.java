@@ -1474,7 +1474,6 @@ public class DataBase extends SQLiteOpenHelper
                     p[k]=x;
                     k++;
                 }while(c.moveToNext());
-
             }
         }
 

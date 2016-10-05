@@ -11,6 +11,9 @@ import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Pranav on 20-08-2016.
  */
@@ -24,6 +27,13 @@ public class About extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
         tv = (TextView) findViewById(R.id.web);
         tv1 = (TextView)findViewById(R.id.num);

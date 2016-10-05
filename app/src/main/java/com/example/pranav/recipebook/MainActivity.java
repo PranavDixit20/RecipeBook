@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     TextView tv, tv1,tv2,tv3,tv4;
@@ -17,6 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
+
 
         tv = (TextView) findViewById(R.id.allrec);
         tv1 = (TextView) findViewById(R.id.bycate);

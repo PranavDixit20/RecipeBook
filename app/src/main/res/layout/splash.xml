@@ -10,7 +10,7 @@
     <ProgressBar
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="530dp"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:id="@+id/splashbar"
         android:progressDrawable="@drawable/my"/>

@@ -4,12 +4,15 @@
 <item android:state_pressed="true"
     android:drawable="@drawable/onpress" /> <!-- pressed -->
 
-<item android:state_activated="true"
+<item android:state_selected="true"
     android:drawable="@drawable/on" />  <!-- focused -->
 
 <item android:state_hovered="true"
     android:drawable="@drawable/disebale" /> <!-- hovered -->
 
 <item
+    android:state_selected="false"
+    android:state_focused="false"
+    android:state_pressed="false"
     android:drawable="@drawable/off" />  <!-- default -->
 </selector>

@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Pranav on 25-07-2016.
  */
@@ -15,6 +18,13 @@ public class Bycat extends Activity implements View.OnClickListener
         protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bycat);
+
+            AdView adView = new AdView(this);
+            adView = (AdView)findViewById(R.id.ad);
+            AdRequest ar=new AdRequest.Builder()
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .build();
+            adView.loadAd(ar);
 
         im = (TextView) findViewById(R.id.tv);
         im2 = (TextView) findViewById(R.id.tv1);

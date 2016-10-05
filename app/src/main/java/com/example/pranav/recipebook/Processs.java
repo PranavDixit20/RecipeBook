@@ -9,6 +9,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Pranav on 01-08-2016.
  */
@@ -27,6 +30,13 @@ public class Processs extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.process);
         db=new DataBase(this);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
             nam = (TextView) findViewById(R.id.recipename);
             despr = (TextView) findViewById(R.id.descr);
@@ -67,7 +77,7 @@ public class Processs extends Activity implements View.OnClickListener {
         }
         else
         {
-
+            v.setSelected(true);
             Toast.makeText(this,"Your recipe is save",Toast.LENGTH_LONG).show();
             Log.d("ok",n);
 

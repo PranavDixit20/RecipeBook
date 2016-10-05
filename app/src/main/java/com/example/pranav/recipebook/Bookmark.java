@@ -12,6 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Bookmark extends AppCompatActivity implements AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener, PopupMenu.OnMenuItemClickListener {
 
     ListView lv;
@@ -23,11 +26,19 @@ public class Bookmark extends AppCompatActivity implements AdapterView.OnItemCli
     String a;
     String pr2[] =new String[10];
     String pr[] =new String[10];
+    View v;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bookmark);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
         lv=(ListView)findViewById(R.id.lv);
 
@@ -45,6 +56,8 @@ public class Bookmark extends AppCompatActivity implements AdapterView.OnItemCli
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+        v = view;
+
         cat = parent.getItemAtPosition(position).toString();
         db = new DataBase(this);
         p = new Processs();
@@ -56,6 +69,7 @@ public class Bookmark extends AppCompatActivity implements AdapterView.OnItemCli
         b.putString("name",cat);
         in.putExtras(b);
         startActivity(in);
+
 
     }
 
