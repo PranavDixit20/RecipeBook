@@ -9,6 +9,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Pranav on 01-08-2016.
  */
@@ -26,6 +29,13 @@ public class Mutton extends Activity implements AdapterView.OnItemClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mutton);
         {
+            AdView adView = new AdView(this);
+            adView = (AdView)findViewById(R.id.ad);
+            AdRequest ar=new AdRequest.Builder()
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .build();
+            adView.loadAd(ar);
+
             lv=(ListView)findViewById(R.id.lv);
             lv.setOnItemClickListener(this);
 

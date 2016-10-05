@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "685050990688",
+    "firebase_url": "https://recipick.firebaseio.com",
+    "project_id": "recipick",
+    "storage_bucket": "recipick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685050990688:android:5ceda5ca48d446db",
+        "android_client_info": {
+          "package_name": "com.pranav.recipebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685050990688-qonfdguq10b77nr3k2jcgiul1j6v1b4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh73KW1jP3wMdJDoGhH1fmGZwSeJ0xZ_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

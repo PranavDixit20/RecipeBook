@@ -12,6 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Pranav on 19-08-2016.
  */
@@ -30,6 +33,13 @@ public class Search extends Activity implements AdapterView.OnItemClickListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
         lv=(ListView)findViewById(R.id.lv);
         et = (EditText)findViewById(R.id.serc);
