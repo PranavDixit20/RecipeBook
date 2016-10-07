@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -21,8 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3715652664770345/1938033915");
+
         AdView adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
         adView = (AdView)findViewById(R.id.ad);
+
         AdRequest ar=new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57803187619",
+    "firebase_url": "https://recipick-db54a.firebaseio.com",
+    "project_id": "recipick-db54a",
+    "storage_bucket": "recipick-db54a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57803187619:android:dc0f992d1b4b91a1",
+        "android_client_info": {
+          "package_name": "com.adservices.recipick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57803187619-a60ioeni4idscn5b70iu59fkdn578af5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adservices.recipick",
+            "certificate_hash": "C89288B808B0D9185AACD46113FC34F42F225064"
+          }
+        },
+        {
+          "client_id": "57803187619-k9iaq8iiiq5rel17mg5g8bimms760lmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB86tLtAE7fkFcoNPXHm1pOGFYG4KOmeeU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57803187619-k9iaq8iiiq5rel17mg5g8bimms760lmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

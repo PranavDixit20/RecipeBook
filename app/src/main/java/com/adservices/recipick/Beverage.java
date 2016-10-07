@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 /**
  * Created by Pranav on 22-07-2016.
@@ -25,6 +26,7 @@ public class Beverage extends Activity implements AdapterView.OnItemClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.beverage);
         {
+            MobileAds.initialize(getApplicationContext(), "ca-app-pub-3715652664770345/1938033915");
             AdView adView = new AdView(this);
             adView = (AdView)findViewById(R.id.ad);
             AdRequest ar=new AdRequest.Builder()

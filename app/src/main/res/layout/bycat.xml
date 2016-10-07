@@ -16,19 +16,11 @@
         android:textSize="35dp"
         android:gravity="center"/>
 
-    <com.google.android.gms.ads.AdView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/ad"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-    </com.google.android.gms.ads.AdView>
-
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbarAlwaysDrawVerticalTrack="true"
-    android:fillViewport="false">
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fillViewport="false">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +29,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1"
             android:layout_marginTop="50dp">
@@ -149,6 +141,22 @@
                 android:id="@+id/tv6"/>
 
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.gms.ads.AdView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/ad"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3715652664770345/1938033915">
+            </com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
     </LinearLayout>
 </ScrollView>
+
 </LinearLayout>

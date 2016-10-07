@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 /**
  * Created by Pranav on 25-07-2016.
@@ -18,7 +19,7 @@ public class Bycat extends Activity implements View.OnClickListener
         protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bycat);
-
+            MobileAds.initialize(getApplicationContext(), "ca-app-pub-3715652664770345/1938033915");
             AdView adView = new AdView(this);
             adView = (AdView)findViewById(R.id.ad);
             AdRequest ar=new AdRequest.Builder()
