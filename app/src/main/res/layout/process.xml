@@ -126,6 +126,7 @@
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -136,6 +137,77 @@
                 android:text="Name"
                 android:textColor="#000"
                 android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv4"
+                android:text="* Additional Styles *"
+                android:textSize="20dp"
+                android:textColor="@color/c"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/l"
+                android:textSize="15dp"
+                android:textColor="#303F9F"
+                android:textStyle="italic"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/li"
+                android:textSize="15dp"
+                android:textColor="#303F9F"
+                android:textStyle="italic"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lin"
+                android:textSize="15dp"
+                android:textColor="#303F9F"
+                android:textStyle="italic"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/link"
+                android:textSize="15dp"
+                android:textColor="#303F9F"
+                android:textStyle="italic"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/linke"
+                android:textSize="15dp"
+                android:textColor="#303F9F"
+                android:textStyle="italic"
+                android:clickable="true"/>
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webvv"/>
 
         </LinearLayout>
     </ScrollView>
