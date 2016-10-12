@@ -7,12 +7,20 @@
     android:background="@mipmap/plash"
     android:gravity="center_horizontal">
 
-    <ProgressBar
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="530dp"
-        style="@android:style/Widget.ProgressBar.Horizontal"
-        android:id="@+id/splashbar"
-        android:progressDrawable="@drawable/my"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@+id/splashbar"
+            android:progressDrawable="@drawable/my"/>
+
+    </RelativeLayout>
+
+
 
 </LinearLayout>
